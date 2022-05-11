@@ -1,0 +1,39 @@
+name: cfc_nova_direcao_campanha
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  http: ^0.13.3
+  money2: ^2.2.1
+  bottom_navy_bar: ^6.0.0
+  cupertino_icons: ^1.0.3
+  fluttertoast: ^8.0.7
+  simple_animations: ^3.1.1
+  page_transition: ^2.0.2
+  shared_preferences: ^2.0.6
+  flare_splash_screen: ^4.0.0
+  flutter_launcher_icons: ^0.9.0
+  flutter:
+    sdk: flutter
+
+#flutter pub pub run flutter_launcher_icons:main
+flutter_icons:
+  image_path: "assets/images/icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
